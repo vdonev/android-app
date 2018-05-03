@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Publish trip" android:id="@+id/publish_trip"/>
+    <item android:title="My trips" android:id="@+id/my_trips"/>
+    <item android:title="Liked trips" android:id="@+id/liked_trips"/>
+    <item android:title="Change profile picture" android:id="@+id/change_profile"/>
+    <item android:title="Logout" android:id="@+id/logout"/>
+</menu>

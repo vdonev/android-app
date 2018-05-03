@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@color/cardview_dark_background">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/ic_action_account_circle_40"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#FF000000"
+        android:id="@+id/drawer_img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Vasko Donev"/>
+
+</LinearLayout>

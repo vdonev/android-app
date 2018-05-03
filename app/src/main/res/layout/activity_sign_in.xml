@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sign_up"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:text="Sign in" />
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sign_in"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/sign_in"
+        android:layout_marginBottom="96dp"
+        android:text="Register" />
+
+    <EditText
+        android:id="@+id/field_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/field_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sign_in"
+        android:layout_alignLeft="@+id/field_email"
+        android:layout_alignStart="@+id/field_email"
+        android:layout_marginBottom="42dp"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPassword" />
+
+</RelativeLayout>
